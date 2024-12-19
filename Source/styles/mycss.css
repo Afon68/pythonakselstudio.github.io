@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma');
+
+
+body {
+    font-family: Michroma, serif;
+    background: linear-gradient(90deg, #f7f7f7 0%, #d5d5d5 97%);
+}
+
+p {
+    color: #020e6b;
+}
+
+.nav-link {
+    color: #8f8d8d;
+}
+
+.navbar-nav .nav-link.active {
+    color: #faf8f8;
+}
+a.nav-link:hover {
+    color: #059a22;
+}
+
+.navbar-brand img{
+    width: 50px;
+  
+}
+.navbar-brand img:hover{
+   
+    background-color: #504f4f;
+    
+}
+
+.navbar-toggler {
+    background-color: #fdfafa;
+}
+
+.card {
+   margin: 0.5rem;
+   background: linear-gradient(270deg, #f7f7f7 0%, #d5d5d5 97%);
+   color: #020e6b; 
+}
+
+.card a {
+    text-decoration: none;
+    color: #020e6b; 
+}
+.card a:hover {
+    color: #031ff1; 
+    text-decoration: underline;
+}
+
+.sidebar {
+    color: #020e6b;
+    background: linear-gradient(270deg, #f7f7f7 0%, #d5d5d5 97%);
+}
+
+/* .col-md-6 p {
+    margin: auto auto;
+} */
+.slide-text,
+.footer-text {
+    color: #010e44;
+    margin: auto auto;
+}
+
+.call-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+footer {
+    background: linear-gradient(270deg, #f7f7f7 0%, #d5d5d5 97%);
+  
+    border-top: solid;
+    border-width: 1px;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-text p {
+   padding: 20px;
+    background-color: #0533b2;
+    color: #e9ecf3;
+}
+
+.btn-outline-primary {
+    /* background: linear-gradient(270deg, hsl(210, 88%, 41%) 0%, #013d6e 97%);  */
+    /* color: #e9ecf3; */
+}
